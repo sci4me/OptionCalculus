@@ -1,0 +1,7 @@
+(|false = false ?
+    (|true = true ?
+        (|not = not ?
+            not true
+        : false) (|a = false ? true : false)
+    : false) (|t = t ? t : t)
+: false) (|f = f ? f : f)
